@@ -1,0 +1,7 @@
+environment: 
+  image: suryagaddipati/ruby-1.9.3
+    
+build:
+ run: 
+  - rake appraisal:install
+  - rake appraisal
