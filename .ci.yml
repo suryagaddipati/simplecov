@@ -1,6 +1,8 @@
 environment: 
   image: suryagaddipati/ruby-1.9.3
     
+  vars: 
+   BUNDLE_FROZEN: false
 build:
  run: 
   - rake appraisal:install
